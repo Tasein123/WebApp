@@ -1,0 +1,118 @@
+/* CSS styles for the sleek and modern budgeting and finance tracker web application */
+
+body {
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+.dashboard {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.dashboard .summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard .summary .item {
+  flex: 1;
+  text-align: center;
+}
+
+.dashboard .charts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.budget {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.budget form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.budget .form-group {
+  margin-right: 10px;
+}
+
+.budget .budget-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expenses {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.expenses table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expenses table th,
+.expenses table td {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.savings {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.savings form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.savings .form-group {
+  margin-right: 10px;
+}
+
+.savings .savings-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.investments {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.investments table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.investments table th,
+.investments table td {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
